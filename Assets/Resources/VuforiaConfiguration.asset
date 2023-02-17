@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: Vuforia.Unity.Engine:Vuforia:VuforiaConfiguration
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVZpR0MzSC8vLy8vQUFBQUtMTzEwMlU0QTBhamxkalRhOUlZYVIwcXl3TXgwTFp6K1JCQjh3anNhbWp2VDRHVEQ3Zk5Ka3Z2UUVCVitDaEtvVGNvMnZweks1ZUZMNUkyZ0F3MElSVS91bmtzbWl1OHNtUUhpV05RbDF3MFlQZnBkcWZpSGdFRTVQZ2RTbDdibDh2Q0REWmoycHo1UWtGT0NPdmV0eGJZeExGV2U4czJDeXpvOElsanZoc2hPTytwOVRhOE83K0NrL1B6L1BSZldzMk5LWDdZRTdRYmN0Z3htcTE0QmFiTlFxalRhaTRtdXJDTXN6eGxadEFzNTY5WEZQQStzTCsrZGpEVmJuRmZ5L2k1VmJvRUNxakdyY01UUmFET2JHU01FeVNpQ0IxWlE0K2VqN0tBWlBKZmJsWm9MTlhuQTdtVlh1VnA1TnBkWDd4WUpBdjRZQ2lrMWZWSEN5T1ZPcWhQUDlmUEh5clczaW8wUUJVRTlrUUI=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 1.0.0
+    eulaAcceptedVersions: 
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 0}
+    outlineShader: {fileID: 0}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 0}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: 
+    playModeType: 0
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
